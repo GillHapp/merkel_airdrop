@@ -38,7 +38,6 @@ contract MerkleAirdropTest is Test {
 
         token = new BagelToken();
         bytes32 root = 0xbe8c0ca0528696387b5b52486e7bdebf6a1c53e3adcd6df3d566ef338e924e0f;
-        token = new BagelToken();
         airdrop = new MerkleAirdrop(root, token);
         token.mint(token.owner(), amountToSend);
         console.log("token owner:", token.owner());
