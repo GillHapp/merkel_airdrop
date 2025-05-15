@@ -16,6 +16,7 @@ contract MerkleAirdropTest is Test {
 
     function setUp() public {
         console.log("User:", user);
+        console.log("Amount to collect:", amountToCollect);
 
         // Deploy BagelToken and mint
         token = new BagelToken();
@@ -41,6 +42,28 @@ contract MerkleAirdropTest is Test {
         proof[
             1
         ] = 0xe5ebd1e1b5a5478a944ecab36a9a954ac3b6b8216875f6524caa7a1d87096576;
+
+        // Check if user is eligible
+
+        // Compute leaf hash
+        // bytes32 leaf = keccak256(
+        //     abi.encode(
+        //         0x6CA6d1e2D5347Bfab1d91e883F1915560e09129D,
+        //         "25000000000000000000"
+        //     )
+        // );
+        // console.logBytes32(leaf);
+        // bytes32 leaf2 = keccak256(
+        //     bytes.concat(
+        //         keccak256(
+        //             abi.encode(
+        //                 0x6CA6d1e2D5347Bfab1d91e883F1915560e09129D,
+        //                 "25000000000000000000"
+        //             )
+        //         )
+        //     )
+        // );
+        // console.logBytes32(leaf2);
 
         // Execute claim
         airdrop.claim(amountToCollect, proof);
