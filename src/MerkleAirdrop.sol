@@ -34,7 +34,7 @@ contract MerkleAirdrop {
 
         claimed[msg.sender] = true;
         claimers.push(msg.sender);
-        i_airdropToken.safeTransfer(msg.sender, amount);
         emit Claimed(msg.sender, amount);
+        i_airdropToken.safeTransfer(msg.sender, amount);
     }
 }
