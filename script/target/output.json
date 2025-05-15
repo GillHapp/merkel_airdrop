@@ -1,0 +1,50 @@
+[
+    {
+        "inputs": [
+            "0x6CA6d1e2D5347Bfab1d91e883F1915560e09129D",
+            "25000000000000000000"
+        ],
+        "proof": [
+            "0xef54b0c83407e0c74021e9c900344391f8b30fb6c98e7689f3c6015840959d08",
+            "0xaf54f4c1ffaace224204799f4ac4ae7b9ec3437ee6e3e72a911513f0ed95ba8b"
+        ],
+        "root": "0xbe8c0ca0528696387b5b52486e7bdebf6a1c53e3adcd6df3d566ef338e924e0f",
+        "leaf": "0xd1445c931158119b00449ffcac3c947d028c0c359c34a6646d95962b3b55c6ad"
+    },
+    {
+        "inputs": [
+            "0x29E3b139f4393aDda86303fcdAa35F60Bb7092bF",
+            "25000000000000000000"
+        ],
+        "proof": [
+            "0xd1445c931158119b00449ffcac3c947d028c0c359c34a6646d95962b3b55c6ad",
+            "0xaf54f4c1ffaace224204799f4ac4ae7b9ec3437ee6e3e72a911513f0ed95ba8b"
+        ],
+        "root": "0xbe8c0ca0528696387b5b52486e7bdebf6a1c53e3adcd6df3d566ef338e924e0f",
+        "leaf": "0xef54b0c83407e0c74021e9c900344391f8b30fb6c98e7689f3c6015840959d08"
+    },
+    {
+        "inputs": [
+            "0x537C8f3d3E18dF5517a58B3fB9D9143697996802",
+            "25000000000000000000"
+        ],
+        "proof": [
+            "0x8299d552503e634dccb1e964391a0c1003a70ac6a47fb2cc39db78eceaa46c84",
+            "0x67ac38a0ee927516de8ed257ce3ecc9b1c02daf12cde2da8ffaf12582431f3d7"
+        ],
+        "root": "0xbe8c0ca0528696387b5b52486e7bdebf6a1c53e3adcd6df3d566ef338e924e0f",
+        "leaf": "0x8ebcc963f0588d1ded1ebd0d349946755f27e95d1917f9427a207d8935e04d4b"
+    },
+    {
+        "inputs": [
+            "0xc0A55e2205B289a967823662B841Bd67Aa362Aec",
+            "25000000000000000000"
+        ],
+        "proof": [
+            "0x8ebcc963f0588d1ded1ebd0d349946755f27e95d1917f9427a207d8935e04d4b",
+            "0x67ac38a0ee927516de8ed257ce3ecc9b1c02daf12cde2da8ffaf12582431f3d7"
+        ],
+        "root": "0xbe8c0ca0528696387b5b52486e7bdebf6a1c53e3adcd6df3d566ef338e924e0f",
+        "leaf": "0x8299d552503e634dccb1e964391a0c1003a70ac6a47fb2cc39db78eceaa46c84"
+    }
+]
