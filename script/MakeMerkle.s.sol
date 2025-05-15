@@ -21,7 +21,7 @@ contract MakeMerkle is Script, ScriptHelper {
     uint256 private count = elements.readUint(".count"); // get the number of leaf nodes
 
     // make three arrays the same size as the number of leaf nodes
-    bytes32[] private leafs = new bytes32[](count); l
+    bytes32[] private leafs = new bytes32[](count); 
 
     string[] private inputs = new string[](count);
     string[] private outputs = new string[](count);
