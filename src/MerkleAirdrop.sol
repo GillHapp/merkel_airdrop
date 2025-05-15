@@ -25,7 +25,9 @@ contract MerkleAirdrop {
             MerkleProof.verify(
                 proof,
                 i_merkleRoot,
-                0xd1445c931158119b00449ffcac3c947d028c0c359c34a6646d95962b3b55c6ad
+                keccak256(
+                    bytes.concat(keccak256(abi.encode(msg.sender, amount)))
+                )
             ),
             "Invalid proof"
         );
